@@ -1,0 +1,12 @@
+@import './defaults.css';
+
+body {
+  background: var(--varBgColor);
+  color: white;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.asd {
+  color: var(--varColor);
+}
