@@ -1,15 +1,15 @@
 /* Globals & Imports */
-@import '../../node_modules/modern-normalize/modern-normalize.css';
+@import "../../node_modules/modern-normalize/modern-normalize.css";
 
-@import url('https://rsms.me/inter/inter.css');
+@import url("https://rsms.me/inter/inter.css");
 
 html {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 @supports (font-variation-settings: normal) {
   html {
-    font-family: 'Inter var', sans-serif;
+    font-family: "Inter var", sans-serif;
   }
 }
 
@@ -49,7 +49,7 @@ html {
 }
 
 .nav-links li a {
-  padding: 20px;
+  padding: 20px 100vw;
   margin: 20px 0;
 }
 
@@ -61,7 +61,7 @@ html {
   text-decoration: none;
   color: black;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .nav-active {
@@ -120,7 +120,7 @@ svg.show {
 }
 
 .hover-underline:after {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   transform: scaleX(0);
@@ -147,7 +147,7 @@ svg.show {
   justify-content: center;
   align-items: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('../img/header.jpg');
+     url("../img/header.jpg?as=avif"), url("../img/header.jpg?as=webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -182,7 +182,7 @@ svg.show {
 
 /* Logo container */
 
-.logo-container  {
+.logo-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -214,4 +214,3 @@ svg.show {
   color: white;
   bottom: 0;
 }
-
