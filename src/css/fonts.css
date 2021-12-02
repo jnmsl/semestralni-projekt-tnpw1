@@ -1,0 +1,9 @@
+@import '../../node_modules/@fontsource/inter/index.css';
+
+@import '../../node_modules/@fontsource/inter/500.css';
+
+@import '../../node_modules/@fontsource/inter/700.css';
+
+body {
+  font-family: 'Inter';
+}

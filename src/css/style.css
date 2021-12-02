@@ -1,16 +1,6 @@
 /* Globals & Imports */
 @import '../../node_modules/modern-normalize/modern-normalize.css';
 
-@import '../../node_modules/@fontsource/inter/index.css';
-
-@import '../../node_modules/@fontsource/inter/500.css';
-
-@import '../../node_modules/@fontsource/inter/700.css';
-
-body {
-  font-family: 'Inter';
-}
-
 /* Navbar */
 
 .nav-main {
@@ -116,31 +106,6 @@ svg.show {
   .nav-logo img {
     height: 40px;
   }
-}
-
-.hover-underline {
-  display: inline-block;
-  position: relative;
-  color: black;
-}
-
-.hover-underline:after {
-  content: '';
-  position: absolute;
-  width: 100%;
-  transform: scaleX(0);
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: black;
-  transform-origin: bottom right;
-  transition: transform 0.25s ease-out;
-  border-radius: 2px;
-}
-
-.hover-underline:hover:after {
-  transform: scaleX(1);
-  transform-origin: bottom left;
 }
 
 /* Main header */
