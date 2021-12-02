@@ -10,7 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "clear": "rimraf .cache",
     "dev": "parcel src/index.html --dist-dir .cache/dev --cache-dir .cache/parcel",
-    "build": "parcel build src/index.html --cache-dir .cache/parcel --public-url ./dist/",
+    "build": "parcel build src/index.html --cache-dir .cache/parcel --public-url ./",
     "deploy": "gh-pages -d dist",
     "dist": "serve dist"
   },
