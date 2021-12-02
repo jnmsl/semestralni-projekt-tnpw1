@@ -1,16 +1,14 @@
 /* Globals & Imports */
-@import "../../node_modules/modern-normalize/modern-normalize.css";
+@import '../../node_modules/modern-normalize/modern-normalize.css';
 
-@import url("https://rsms.me/inter/inter.css");
+@import '../../node_modules/@fontsource/inter/index.css';
 
-html {
-  font-family: "Inter", sans-serif;
-}
+@import '../../node_modules/@fontsource/inter/500.css';
 
-@supports (font-variation-settings: normal) {
-  html {
-    font-family: "Inter var", sans-serif;
-  }
+@import '../../node_modules/@fontsource/inter/700.css';
+
+body {
+  font-family: 'Inter';
 }
 
 /* Navbar */
@@ -127,7 +125,7 @@ svg.show {
 }
 
 .hover-underline:after {
-  content: "";
+  content: '';
   position: absolute;
   width: 100%;
   transform: scaleX(0);
@@ -154,7 +152,7 @@ svg.show {
   justify-content: center;
   align-items: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-     url("../img/header.jpg?as=avif"), url("../img/header.jpg?as=webp");
+    url('../img/header.jpg?as=avif'), url('../img/header.jpg?as=webp');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -167,7 +165,7 @@ svg.show {
 
 .hero-content h1 {
   font-size: 42px;
-  font-weight: bold;
+  font-weight: 700;
   margin: 0;
 }
 
