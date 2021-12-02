@@ -28,6 +28,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.0",
+    "gh-pages": "^3.2.3",
     "parcel": "^2.0.1",
     "postcss": "^8.4.4",
     "postcss-custom-properties": "^12.0.0",
