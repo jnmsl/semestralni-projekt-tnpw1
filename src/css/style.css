@@ -53,7 +53,7 @@
   text-decoration: none;
   color: black;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .nav-active {
@@ -136,7 +136,7 @@ svg.show {
 
 .hero-content h2 {
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 400;
   margin: 10px;
 }
 
