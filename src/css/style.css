@@ -1,6 +1,18 @@
 /* Globals & Imports */
 @import '../../node_modules/modern-normalize/modern-normalize.css';
 
+@import '../../node_modules/@fontsource/inter/index.css';
+
+@import '../../node_modules/@fontsource/inter/400.css';
+
+@import '../../node_modules/@fontsource/inter/500.css';
+
+@import '../../node_modules/@fontsource/inter/700.css';
+
+body {
+  font-family: 'Inter';
+}
+
 /* Navbar */
 
 .nav-main {
@@ -19,11 +31,11 @@
 }
 
 .nav-logo {
-  height: 30px;
+  height: 32px;
 }
 
 .nav-logo img {
-  height: 30px;
+  height: 32px;
 }
 
 .nav-btn-toggle {
@@ -53,7 +65,7 @@
   text-decoration: none;
   color: black;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .nav-active {
@@ -85,9 +97,11 @@ svg.show {
   .nav-btn-toggle {
     display: none;
   }
+
   .nav-links {
     display: flex;
   }
+
   .nav-links li a {
     padding: 30px;
   }
@@ -95,14 +109,17 @@ svg.show {
   .nav-container {
     width: 1060px;
   }
+
   .nav-main {
     justify-content: center;
     height: 80px;
     padding: 0;
   }
+
   .nav-logo {
     height: 40px;
   }
+
   .nav-logo img {
     height: 40px;
   }
@@ -136,7 +153,7 @@ svg.show {
 
 .hero-content h2 {
   font-size: 24px;
-  font-weight: 400;
+  font-weight: 500;
   margin: 10px;
 }
 
