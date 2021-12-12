@@ -365,6 +365,54 @@ svg.show {
   }
 }
 
+/* Table */
+
+.table-main {
+  font-size: 12px;
+  text-align: center;
+  width: 100%;
+}
+
+.table-main th {
+  background: black;
+  color: white;
+}
+
+.table-main span {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .table-main {
+    width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+
+  .table-team {
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .table-team img {
+    margin-left: 20px;
+  }
+
+  .table-main span {
+    display: inline-block;
+  }
+
+  .table-main td {
+    border: 1px solid black;
+  }
+
+  .table-main th {
+    padding: 5px;
+  }
+}
+
 /* Footer */
 
 .footer-main {
