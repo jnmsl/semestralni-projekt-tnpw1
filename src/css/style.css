@@ -384,7 +384,7 @@ svg.show {
 
 @media only screen and (min-width: 768px) {
   .table-main {
-    width: 800px;
+    width: 720px;
     margin: auto;
     padding: 20px;
   }
@@ -413,6 +413,68 @@ svg.show {
   }
 }
 
+@media only screen and (min-width: 1060px) {
+  .table-main {
+    width: 800px;
+  }
+}
+
+/* Matches */
+
+.match-list {
+  padding: 0 20px;
+}
+
+.match-main {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 30px 0;
+  flex-direction: column;
+}
+
+.match-scoreboard p {
+  text-align: center;
+}
+
+.match-score {
+  font-size: 28px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.match-team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.match-timer {
+  background: rgba(42, 211, 69, 0.1);
+  border-radius: 5px;
+  color: #1fc73b;
+  margin: 5px;
+}
+
+@media only screen and (min-width: 300px) {
+  .match-main {
+    flex-direction: row;
+  }
+  .match-scoreboard {
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .match-list {
+    width: 700px;
+    margin: auto;
+  }
+  .match-score {
+    font-size: 42px;
+  }
+}
+
 /* Footer */
 
 .footer-main {
@@ -424,6 +486,7 @@ svg.show {
   background-color: black;
   color: white;
   bottom: 0;
+  margin-top: 50px;
 }
 
 .footer-content {
