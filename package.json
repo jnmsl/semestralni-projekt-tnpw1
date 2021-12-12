@@ -10,7 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "clear": "rimraf .cache",
     "dev": "parcel src/index.html --dist-dir .cache/dev --cache-dir .cache/parcel",
-    "build": "parcel build src/index.html --cache-dir .cache/parcel --public-url ./",
+    "build": "parcel build src/index.html --cache-dir .cache/parcel",
     "deploy": "gh-pages -d dist",
     "dist": "serve dist"
   },
@@ -26,6 +26,7 @@
   "homepage": "https://github.com/jnmsl/semestralni-projekt-tnpw1#readme",
   "dependencies": {
     "@fontsource/inter": "^4.5.1",
+    "fslightbox": "^3.3.1",
     "modern-normalize": "^1.1.0"
   },
   "devDependencies": {
