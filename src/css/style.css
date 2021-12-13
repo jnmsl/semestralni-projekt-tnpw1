@@ -387,6 +387,7 @@ svg.show {
     width: 720px;
     margin: auto;
     padding: 20px;
+    font-size: 16px;
   }
 
   .table-team {
@@ -429,12 +430,14 @@ svg.show {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin: 30px 0;
+  padding: 30px 0;
   flex-direction: column;
+  margin: auto;
 }
 
-.match-scoreboard p {
+.match-scoreboard {
   text-align: center;
+  margin: 10px 0;
 }
 
 .match-score {
@@ -447,6 +450,7 @@ svg.show {
   display: flex;
   flex-direction: column;
   align-items: center;
+  min-width: 120px;
 }
 
 .match-timer {
@@ -456,7 +460,7 @@ svg.show {
   margin: 5px;
 }
 
-@media only screen and (min-width: 300px) {
+@media only screen and (min-width: 375px) {
   .match-main {
     flex-direction: row;
   }
